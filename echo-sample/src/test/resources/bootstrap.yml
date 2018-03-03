@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: kof-room
+  cloud:
+    bus:
+      enabled: false
+    discovery:
+      enabled: false
+    consul:
+      enabled: false
+      config:
+        enabled: false
+    service-registry:
+      auto-registration:
+        enabled: false
